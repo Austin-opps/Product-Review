@@ -1,6 +1,6 @@
 class Review
-    belongs_to :user
-    belongs_to :product
+    # belongs_to :user
+    # belongs_to :product
 
     def user
         User.find(self.user_id)

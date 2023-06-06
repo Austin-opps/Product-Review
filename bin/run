@@ -9,12 +9,12 @@ people= User.all
  puts people.favorite_product
 end
 
-reviews = Review.all
-reviews.each do |review|
-puts review.user
-puts review.product
-puts review.print_review
-end
+# reviews = Review.all
+# reviews.each do |review|
+# puts review.user
+# puts review.product
+# puts review.print_review
+# end
 
 production = Product.all
 production.each do |review|
